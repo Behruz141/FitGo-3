@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "RussoOne";
+  src: url(./Fonts/RussoOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "InterTight";
+  src: url(./Fonts/InterTight-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "InterTight";
+}
+
+header {
+  background-color: #063835;
+}
+
+.container {
+  width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header-menu a {
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+/* Button */
+
+.register-btn {
+  gap: 12px;
+}
+
+.register-btn button {
+  width: 95;
+  height: 56;
+  padding-top: 20px;
+  padding-right: 26px;
+  padding-bottom: 20px;
+  padding-left: 26px;
+  gap: 4px;
+  border-radius: 40px;
+  border: 0.5px solid #fff;
+  cursor: pointer;
+  background-color: #063835;
+  transition: all 0.3s ease-in-out;
+}
+
+.register-btn a {
+  color: #fff;
+  transition: all 0.2 ease-in-out;
+}
+
+.register-btn button:hover a {
+  color: #063835;
+}
+
+.register-btn button:hover {
+  background-color: #fff;
+}
+
+/* Menu hovers */
+.menu-1:hover {
+  font-size: 20px;
+}
+
+.menu-1 {
+  transition: all 0.1s ease-in-out;
+}
+
+.menu-2:hover {
+  font-size: 20px;
+}
+
+.menu-2 {
+  transition: all 0.1s ease-in-out;
+}
+
+.menu-3:hover {
+  font-size: 20px;
+}
+
+.menu-3 {
+  transition: all 0.1s ease-in-out;
+}
+
+.menu-4:hover {
+  font-size: 20px;
+}
+
+.menu-4 {
+  transition: all 0.1s ease-in-out;
+}
+
+.menu-5:hover {
+  font-size: 20px;
+}
+
+.menu-5 {
+  transition: all 0.1s ease-in-out;
+}
+/* Menu hovers end */
+
+/* MAIN */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 13px;
+  background: #063835;
+  color: white;
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 96px;
+  font-family: "RussoOne";
+}
+
+.highlight {
+  background: #c4ff19;
+  color: #063835;
+  font-family: "RussoOne";
+}
+
+.hero-text p {
+  margin-top: 18px;
+  max-width: 380px;
+}
+
+.btn-start {
+  margin-top: 25px;
+  background: #ff4c33;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.training-img {
+  width: 753px;
+  height: auto;
+  margin-top: 13px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  position: relative;
+}
+
+.highlight {
+  position: absolute;
+  left: 680px;
+}
