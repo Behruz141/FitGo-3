@@ -219,7 +219,7 @@ main {
 }
 
 .training-img {
-  width: 753px;
+  max-width: 753px;
   height: auto;
   margin-top: -40px;
 }
@@ -284,6 +284,6 @@ main {
 
 .ads-section{
   position: absolute;
-  top: 880px;
+  top: 890px;
   z-index: 10;
 }
